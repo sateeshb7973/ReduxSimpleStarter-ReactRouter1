@@ -1,0 +1,11 @@
+The idea behind react router is building a Single Page Application(SPA) architecture.
+
+And the idea behind SPA architecture is it loads only one HTML document and when user navigates to other pages application won't create a
+new html document by using the scripts application renders the page with new components.
+
+It gives feeling to the user that it is navigating.
+
+In case of non-SPA's, when user clicks on a link server sends a completely new html document to render
+
+In case of react router (please look the diagram of react router web flow.), when user clicks on a link, based on the new link react router decides
+what components to render on the page.
